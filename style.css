@@ -301,9 +301,12 @@ footer .container{
     visibility:hidden;
 }
 @media(max-width:751px) {
+    .container-first {
+        padding-top:20px;
+    }
     .showcase {
         width:85%;
-        margin-top:25px;
+        margin-top:40px;
     }
     .card-container {
         grid-template-columns:1fr;
